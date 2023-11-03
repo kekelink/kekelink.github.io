@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kekelink.github.io</id>
+    <title>可可吉吉</title>
+    <updated>2023-11-03T06:09:12.560Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://kekelink.github.io"/>
+    <link rel="self" href="https://kekelink.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://kekelink.github.io/images/avatar.png</logo>
+    <icon>https://kekelink.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 可可吉吉</rights>
+    <entry>
+        <title type="html"><![CDATA[可视化]]></title>
+        <id>https://kekelink.github.io/post/ke-shi-hua/</id>
+        <link href="https://kekelink.github.io/post/ke-shi-hua/">
+        </link>
+        <updated>2023-03-05T10:55:59.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="web-实现可视化的四种方式">web 实现可视化的四种方式</h2>
+<ol>
+<li>第一种是传统的 html+css</li>
+<li>使用 SVG，。SVG 和传统的 HTML+CSS 的绘图方式差别不大。只不过，HTML 元素在绘制矢量图形方面的能力有些不足（我们后面会讲到），而 SVG 恰好弥补了这方面的缺陷。</li>
+<li>使用 Canvas2D。这是浏览器提供的 Canvas API 中的其中一种上下文，使用它可以非常方便地绘制出基础的几何图形</li>
+<li>使用 WebGL。这是浏览器提供的 Canvas API 中的另一种上下文，它是 OpenGL ES 规范在 Web 端的实现</li>
+</ol>
+<h2 id="svg">SVG</h2>
+<ul>
+<li>SVG 是一种 XML 语言，类似 XHTML，可以用来绘制矢量图形</li>
+<li>SVG 的元素和属性必须按标准格式书写，因为 XML 是区分大小写的（这一点和 HTML 不同）</li>
+<li>SVG 里的属性值必须用引号引起来，就算是数值也必须这样做。</li>
+</ul>
+<h3 id="svg-基本形状">SVG 基本形状</h3>
+<ul>
+<li>rect 矩形<br>
+<code>1</code></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vue]]></title>
+        <id>https://kekelink.github.io/post/vue/</id>
+        <link href="https://kekelink.github.io/post/vue/">
+        </link>
+        <updated>2020-11-11T03:02:55.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="1323">1323</h2>
+<p>34234<br>
+<img src="https://kekelink.github.io/post-images/1657632203317.png" alt="" loading="lazy"><br>
+测试</p>
+]]></content>
+    </entry>
+</feed>
